@@ -33,8 +33,8 @@ player.onExitScreen(() => {
 
 scene("gameover", () => {
   add([
-    text("Game Over!"),
-    pos(500, 300)
+    text("Game Over! \n" + "Cantidad de bloques: " + counterUI.text),
+    pos(300, 300)
   ]);
 })
 
